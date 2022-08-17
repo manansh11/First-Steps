@@ -35,6 +35,7 @@
   left: 16px;
   font-family: 'Staatliches', cursive;
   font-size: 63.96px;
+  cursor: pointer;
 }
 
 
@@ -50,7 +51,7 @@
 
 
 /* Main Button on home page */
-.mainbutton {
+.main_button {
   font-family: 'Quicksand', sans-serif;
   background-color: #F3385F;
   color: #FAE6D6;
@@ -59,29 +60,31 @@
   border-color: #FAE6D6;
 }
 
-.mainbutton:active {
+.main_button:active {
 
 }
 
-.mainbutton:focus {
+.main_button:focus {
   outline: #26163F;
 }
 
-.mainbutton:hover {
+.main_button:hover {
   background-color: #381746;
   transition: 0.3s;
+  cursor: pointer;
 }
 
-.mainbutton:not(:hover) {
+.main_button:not(:hover) {
   background-color: #F3385F;
   transition: 0.3s;
+  
 }
 
 
 
 /* Benefit Section */
 
-.benefitsection {
+.benefit_section {
   display: flex;
   width: 100vw;
   margin: 24px 24px 24px 24px;
@@ -92,7 +95,7 @@
 
 /* Feature Section */
 
-.featuresection {
+.feature_section {
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -101,11 +104,11 @@
   padding: 50px;
 }
 
-.featurediv {
+.feature_div {
   padding: 10px 25px 10px 25px;
 }
 
-.featurevideo{
+.feature_video{
 
 }
 
@@ -114,13 +117,73 @@
 
 
 /* Footer CTA */
-.footercta {
+.footer_cta {
   display: flex;
   width: 100vw;
   flex-direction: column;
   align-items: center;
 }
 
-.footercta button {
+.footer_cta button {
   width: 25%;
+}
+
+
+
+
+
+/* Start Here CSS */
+
+.start_here_buttons {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+
+.not_sure {
+  font-size: 25px;
+  color: #F3385F;
+  text-decoration-line: underline;
+}
+
+
+
+
+/* directory.js css */
+.directory_section {
+  width: 70vw;
+  border: 2px solid #26163F;
+  border-radius: 10px;
+  padding: 30px;
+
+}
+
+
+
+.directory_div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 100px;
+  
+
+  border: 5px solid #26163F;
+  border-radius: 10px;
+}
+
+.directory_logo {
+
+}
+
+
+
+.directory_tag {
+  background-color: #B64651;
+  color:#FAE6D6;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  align-items: center;
 }
